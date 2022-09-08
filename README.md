@@ -5,7 +5,7 @@ This repository is used by the [OpenStreetMap operations and administration team
 
 Oxidized is used for backing up the configurations of our network devices.
 
-== Install ==
+## Install
 ```
 bundler install --deployment
 ```
