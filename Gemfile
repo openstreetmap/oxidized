@@ -4,6 +4,6 @@ source "https://rubygems.org"
 
 # gem "rails"
 
-gem "oxidized", "~> 0.28.0"
+gem "oxidized"
 
-gem "oxidized-script", "~> 0.0.6"
+gem "oxidized-script"

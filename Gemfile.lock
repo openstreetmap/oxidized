@@ -24,8 +24,8 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
-  oxidized (~> 0.28.0)
-  oxidized-script (~> 0.0.6)
+  oxidized
+  oxidized-script
 
 BUNDLED WITH
    2.3.18
