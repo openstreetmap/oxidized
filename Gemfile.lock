@@ -3,7 +3,13 @@ GEM
   specs:
     asetus (0.3.0)
     bcrypt_pbkdf (1.1.0)
+    date (3.2.2)
     ed25519 (1.3.0)
+    net-ftp (0.1.3)
+      net-protocol
+      time
+    net-protocol (0.1.3)
+      timeout
     net-ssh (5.2.0)
     net-telnet (0.2.0)
     oxidized (0.28.0)
@@ -19,11 +25,15 @@ GEM
       slop
     rugged (0.28.5)
     slop (4.9.2)
+    time (0.2.0)
+      date
+    timeout (0.3.0)
 
 PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
+  net-ftp
   oxidized
   oxidized-script
 

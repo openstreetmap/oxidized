@@ -4,3 +4,4 @@ source "https://rubygems.org"
 
 gem "oxidized"
 gem "oxidized-script"
+gem "net-ftp"
