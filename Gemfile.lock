@@ -1,16 +1,7 @@
 GIT
-  remote: https://github.com/ytti/oxidized-script.git
-  revision: 988cded5d89f52e274afb545bd3e011e19d5d22d
-  ref: 988cded5d89f52e274afb545bd3e011e19d5d22d
-  specs:
-    oxidized-script (0.6.0)
-      oxidized (~> 0.28)
-      slop (~> 4.6)
-
-GIT
-  remote: https://github.com/ytti/oxidized.git
-  revision: ff1fb7bf49d3be7183a701290ee92881ce8e2395
-  ref: ff1fb7bf49d3be7183a701290ee92881ce8e2395
+  remote: https://github.com/firefishy/oxidized.git
+  revision: 793825e507b615fac551a115c0aaf29e0c8c468b
+  ref: 793825e507b615fac551a115c0aaf29e0c8c468b
   specs:
     oxidized (0.28.0)
       asetus (~> 0.1)
@@ -18,7 +9,16 @@ GIT
       ed25519 (~> 1.2)
       net-ssh (~> 7.0.0.beta1)
       net-telnet (~> 0.2)
-      rugged (~> 0.28.0)
+      rugged (~> 1.5.0.1)
+      slop (~> 4.6)
+
+GIT
+  remote: https://github.com/ytti/oxidized-script.git
+  revision: 988cded5d89f52e274afb545bd3e011e19d5d22d
+  ref: 988cded5d89f52e274afb545bd3e011e19d5d22d
+  specs:
+    oxidized-script (0.6.0)
+      oxidized (~> 0.28)
       slop (~> 4.6)
 
 GEM
@@ -35,7 +35,7 @@ GEM
       timeout
     net-ssh (7.0.1)
     net-telnet (0.2.0)
-    rugged (0.28.5)
+    rugged (1.5.0.1)
     slop (4.9.3)
     time (0.2.0)
       date
