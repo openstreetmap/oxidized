@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/ytti/oxidized.git
-  revision: bc0d847d5116d5e9726e23ffdd3d893dd3d8c9e2
+  revision: da2792b5bb936996689e37906c49746ad5f612e4
   ref: master
   specs:
     oxidized (0.28.0)
