@@ -9,14 +9,14 @@ GIT
 
 GIT
   remote: https://github.com/ytti/oxidized.git
-  revision: 64864e03f3786287c1e9e0c4c3cf05224482cfbe
+  revision: 37ad8d45ce09364cfb158b714aac18c6e1346e32
   ref: master
   specs:
     oxidized (0.28.0)
       asetus (~> 0.1)
       bcrypt_pbkdf (~> 1.0)
       ed25519 (~> 1.2)
-      net-ssh (~> 7.0.0.beta1)
+      net-ssh (~> 7.0.1)
       net-telnet (~> 0.2)
       rugged (~> 1.5.0.1)
       slop (~> 4.6)
