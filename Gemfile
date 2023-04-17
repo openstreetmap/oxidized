@@ -2,6 +2,5 @@
 
 source "https://rubygems.org"
 
-gem "oxidized", git: 'https://github.com/ytti/oxidized.git', ref: 'master'
-gem "oxidized-script", git: 'https://github.com/ytti/oxidized-script.git', ref: 'master'
-gem "net-ftp"
+gem "oxidized", "~> 0.29.0"
+gem "net-ftp", "~> 0.2.0"
