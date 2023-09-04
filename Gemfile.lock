@@ -20,9 +20,11 @@ GEM
       net-telnet (~> 0.2)
       rugged (~> 1.6)
       slop (~> 4.6)
-    psych (3.3.4)
+    psych (5.1.0)
+      stringio
     rugged (1.6.3)
     slop (4.10.1)
+    stringio (3.0.8)
     time (0.2.2)
       date
     timeout (0.3.2)
@@ -36,7 +38,7 @@ PLATFORMS
 DEPENDENCIES
   net-ftp (~> 0.2.0)
   oxidized (~> 0.29.1)
-  psych (~> 3.3.2)
+  psych (~> 5.1.0)
 
 BUNDLED WITH
    2.3.18
