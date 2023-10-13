@@ -10,7 +10,7 @@ GEM
       time
     net-protocol (0.2.1)
       timeout
-    net-ssh (7.1.0)
+    net-ssh (7.2.0)
     net-telnet (0.2.0)
     oxidized (0.29.1)
       asetus (~> 0.1)
@@ -20,14 +20,14 @@ GEM
       net-telnet (~> 0.2)
       rugged (~> 1.6)
       slop (~> 4.6)
-    psych (5.1.0)
+    psych (5.1.1)
       stringio
-    rugged (1.6.3)
+    rugged (1.7.1)
     slop (4.10.1)
     stringio (3.0.8)
     time (0.2.2)
       date
-    timeout (0.3.2)
+    timeout (0.4.0)
 
 PLATFORMS
   aarch64-linux
