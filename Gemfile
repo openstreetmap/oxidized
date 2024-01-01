@@ -3,5 +3,5 @@
 source "https://rubygems.org"
 
 gem "oxidized", "~> 0.29.1"
-gem "net-ftp", "~> 0.2.0"
+gem "net-ftp", "~> 0.3.3"
 gem "psych", "~> 5.1.1"
