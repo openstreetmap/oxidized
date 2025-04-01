@@ -17,7 +17,7 @@ GEM
     net-ssh (7.3.0)
     net-telnet (0.2.0)
     ostruct (0.6.1)
-    oxidized (0.32.1)
+    oxidized (0.33.0)
       asetus (~> 0.4)
       bcrypt_pbkdf (~> 1.0)
       ed25519 (~> 1.2)
@@ -35,7 +35,7 @@ GEM
       stringio
     rugged (1.9.0)
     slop (4.10.1)
-    stringio (3.1.5)
+    stringio (3.1.6)
     time (0.4.1)
       date
     timeout (0.4.3)
@@ -47,7 +47,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  oxidized (~> 0.32.0)
+  oxidized (~> 0.33.0)
 
 BUNDLED WITH
    2.3.18

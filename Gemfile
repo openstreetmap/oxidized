@@ -2,4 +2,4 @@
 
 source "https://rubygems.org"
 
-gem "oxidized", "~> 0.32.0"
+gem "oxidized", "~> 0.33.0"
