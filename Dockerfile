@@ -1,4 +1,4 @@
-FROM docker.io/library/ruby:3.1.4-slim as build
+FROM docker.io/library/ruby:3.4.5-slim as build
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -7,7 +7,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     gcc \
     libgit2-dev \
     cmake \
-    pkg-config && \
+    pkg-config \
+    libyaml-dev && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
@@ -21,7 +22,7 @@ RUN bundle install --deployment --jobs=4 --without development test \
 
 COPY . .
 
-FROM docker.io/library/ruby:3.1.4-slim as run
+FROM docker.io/library/ruby:3.4.5-slim as run
 
 WORKDIR /app
 
