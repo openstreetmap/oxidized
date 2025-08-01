@@ -3,3 +3,4 @@
 source "https://rubygems.org"
 
 gem "oxidized", "~> 0.34.0"
+gem "ostruct"
